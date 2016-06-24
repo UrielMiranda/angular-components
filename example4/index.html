@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+  <meta charset="UTF-8">
+  <title>Components</title>
+</head>
+<body ng-controller="homeCtrl as home">
+
+<hello name="user.name" number="user.number" ng-repeat="user in home.users"></hello>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="./app/app.js"></script>
+</body>
+</html>
